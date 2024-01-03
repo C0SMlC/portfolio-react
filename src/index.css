@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box !important;
 }
 
 html {
@@ -9,11 +9,9 @@ html {
 }
 
 body {
-  font-family: "Roboto Mono", sans-serif;
-  color: #252525;
-  font-weight: 400;
-  background-color:#E3F2FD;
-  min-height: 100vh;
+  font-family: "Playfair Display", serif !important;
+  color: #37474f;
+  font-weight: 500;
 }
 
 #root {
@@ -23,4 +21,27 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
+}
+
+.reddot {
+  color: #c2a501;
+  font-size: 8.2rem;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.container {
+  height: 90vh;
+  width: 80svw;
+  background-color: #e8eaf6;
+  font-size: large;
+  margin-top: 6.2rem;
+}
+
+.title {
+  font-size: 4.8rem;
+  font-weight: 700;
+  margin-bottom: 2.6rem;
+  color: #37474f;
+  display: inline-block;
 }

@@ -1,12 +1,10 @@
-import styles from "./OverviewPage.module.css";
-
-function OverviewPage() {
+function ProjectsPage() {
   return (
     <section className="container">
       <h1 className="title">
-        Overview<p className="reddot">.</p>
+        Projects<p className="reddot">.</p>
       </h1>
-      <p>This is the overview page</p>
+      <p>This is the projects page</p>
       <p>And this is another paragraph</p>
       <p>And this is yet another paragraph</p>
       <p>And this is yet another paragraph</p>
@@ -19,4 +17,4 @@ function OverviewPage() {
   );
 }
 
-export default OverviewPage;
+export default ProjectsPage;
