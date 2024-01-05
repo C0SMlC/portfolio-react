@@ -1,1 +1,40 @@
+.number {
+  font-family: sans-serif;
+  margin-right: 1.2rem;
+}
 
+.icon {
+  margin-right: 1.2rem;
+  font-size: 0.4rem;
+  color: #c2a501;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  height: 100px;
+  width: 100px;
+  opacity: 40%;
+}
+
+.js {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  transform: translate(-60%, -60%);
+}
+
+.html {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  transform: translate(-60%, -60%);
+}
+
+.cpp {
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  transform: translate(-60%, -60%);
+}
+
+.icon:hover {
+  color: #455a64;
+}

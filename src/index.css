@@ -31,11 +31,10 @@ body {
 }
 
 .container {
-  height: 90vh;
-  width: 80svw;
   background-color: #e8eaf6;
   font-size: large;
   margin-top: 6.2rem;
+  position: relative;
 }
 
 .title {
