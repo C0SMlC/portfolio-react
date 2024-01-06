@@ -11,30 +11,72 @@
   transition: all 0.3s ease;
   height: 100px;
   width: 100px;
-  opacity: 40%;
-}
-
-.js {
-  position: absolute;
-  top: 30%;
-  left: 25%;
-  transform: translate(-60%, -60%);
+  opacity: 19%;
 }
 
 .html {
   position: absolute;
-  top: 20%;
-  left: 40%;
+  top: 30%;
+  left: 30%;
   transform: translate(-60%, -60%);
+}
+
+.js {
+  position: absolute;
+  top: 20%;
+  left: 44%;
+  transform: translate(-60%, -60%);
+}
+
+.css {
+  position: absolute;
+  top: 20%;
+  left: 58%;
+  transform: translate(-60%, -60%);
+  height: 80px;
+  width: 80px;
 }
 
 .cpp {
   position: absolute;
-  top: 20%;
-  left: 60%;
+  top: 30%;
+  right: 19%;
   transform: translate(-60%, -60%);
+  height: 110px;
+  width: 110px;
 }
 
+.react {
+  height: 100px;
+  width: 100px;
+}
+
+.nodejs {
+  height: 160px;
+  width: 160px;
+}
+.mongodb {
+  height: 150px;
+  width: 150px;
+}
+
+.bottom_icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 3rem;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+}
 .icon:hover {
   color: #455a64;
+}
+
+.homeScreenImage {
+  position: absolute;
+  top: 50%;
+  right: 2%;
 }
